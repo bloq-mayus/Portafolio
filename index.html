@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de Desarrollo Web FullStack.">
+  <title>Portafolio Profesional — Desarrollador FullStack</title>
+  
+  <!-- CSS Modular -->
+  <link rel="stylesheet" href="css/00-reset.css">
+  <link rel="stylesheet" href="css/01-variables.css">
+  <link rel="stylesheet" href="css/02-tipografia.css">
+  <link rel="stylesheet" href="css/03-layout.css">
+  <link rel="stylesheet" href="css/04-componentes.css">
+  <link rel="stylesheet" href="css/05-responsive.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="header-principal">
+    <div class="logo">MiPortafolio</div>
+    <button id="menu-btn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <button id="dark-mode-toggle" aria-label="Cambiar tema">🌙</button>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section id="hero" class="seccion-hero">
+      <h1>Hola, soy Desarrollador FullStack</h1>
+      <p>Construyo soluciones web accesibles, modernas y eficientes.</p>
+      <a href="#contacto" class="btn">Contáctame</a>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="seccion">
+      <h2>Sobre mí</h2>
+      <p>Apasionado por la tecnología, el código limpio y la arquitectura de software. En constante aprendizaje y desarrollo de proyectos web.</p>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="seccion">
+      <h2>Proyectos</h2>
+      <div class="grid-proyectos">
+        <article class="tarjeta-proyecto">
+          <h3>Sistema de Gestión Web</h3>
+          <p>Aplicación desarrollada con HTML5, CSS3 y JavaScript vanilla.</p>
+        </article>
+        <article class="tarjeta-proyecto">
+          <h3>Plataforma Interactiva</h3>
+          <p>Proyecto web optimizado en rendimiento y accesibilidad.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="seccion">
+      <h2>Habilidades</h2>
+      <ul class="lista-habilidades">
+        <li>HTML5 / CSS3</li>
+        <li>JavaScript ES6+</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="seccion">
+      <h2>Contacto</h2>
+      <form id="formulario-contacto">
+        <div class="campo">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="campo">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <button type="submit" class="btn">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

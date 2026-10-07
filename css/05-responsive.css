@@ -1,0 +1,40 @@
+#menu-btn {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-texto);
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: block;
+  }
+
+  #nav-menu {
+    display: none;
+    width: 100%;
+  }
+
+  #nav-menu.activo {
+    display: block;
+  }
+
+  .header-principal {
+    flex-wrap: wrap;
+  }
+
+  #nav-menu ul {
+    list-style: none;
+    padding: 1rem 0;
+  }
+}
+
+@media (min-width: 769px) {
+  #nav-menu ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+}

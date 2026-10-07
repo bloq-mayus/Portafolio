@@ -1,0 +1,40 @@
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--color-primario);
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+.header-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--espaciado);
+  background: var(--color-tarjeta);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.seccion {
+  padding: 2rem var(--espaciado);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.seccion-hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: var(--color-tarjeta);
+}
+
+.grid-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}

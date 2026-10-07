@@ -1,0 +1,16 @@
+:root {
+  --color-primario: hsl(220, 70%, 45%);
+  --color-fondo: hsl(0, 0%, 98%);
+  --color-tarjeta: hsl(0, 0%, 100%);
+  --color-texto: hsl(220, 15%, 20%);
+  --color-acento: hsl(180, 60%, 45%);
+  --fuente-principal: system-ui, -apple-system, sans-serif;
+  --espaciado: 1rem;
+  --radio-borde: 8px;
+}
+
+.dark {
+  --color-fondo: hsl(220, 15%, 15%);
+  --color-tarjeta: hsl(220, 15%, 22%);
+  --color-texto: hsl(0, 0%, 95%);
+}

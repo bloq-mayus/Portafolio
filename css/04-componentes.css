@@ -1,0 +1,32 @@
+.btn {
+  display: inline-block;
+  background: var(--color-primario);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radio-borde);
+  border: none;
+  cursor: pointer;
+}
+
+.tarjeta-proyecto {
+  background: var(--color-tarjeta);
+  padding: 1.5rem;
+  border-radius: var(--radio-borde);
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.campo {
+  margin-bottom: 1rem;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.campo input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
